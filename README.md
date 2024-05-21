@@ -48,10 +48,6 @@ To get started with the Search API testing, follow these steps:
 
 3. Navigate to the `src/test/java/cucumber/Options/TestRunner.java` class and run it as a JUnit test to execute the Cucumber scenarios.
 
-## Running the Tests
-
-
-
 ## Step Definitions
 
 The step definitions for the Cucumber scenarios are implemented in the `SearchApiSteps` class. It uses the RestAssured library to interact with the Search API and validates the response using assertions.
