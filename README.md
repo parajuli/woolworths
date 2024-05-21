@@ -106,13 +106,12 @@ java -jar jenkins.war --httpPort=8080
 
 4. In the project configuration, set up the following:
 
-	a. Specify the Git repository URL where the project is hosted.
-	b. Add a build step to execute a Maven build, specifying the goals as `clean install test`.
+	- Specify the Git repository URL where the project is hosted.
+	- Add a build step to execute a Maven build, specifying the goals as `clean install test`.
 
 5. Save the configuration and run the Jenkins project. Jenkins will fetch the code, build the project, and execute the tests.
 
-6. After the test execution, you can access the generated Cucumber JSON report for further analysis.
-
-## Test Results
-The test results are generated in a Cucumber JSON report, which can be found at `target/report/cucumber.json`. You can customize the reporting format and output by modifying the CucumberOptions in the `TestRunner` class.
+6. After the test execution, you can access the generated Cucumber JVM report for further analysis.
+ 
+![alt text](https://github.com/parajuli/woolworths/blob/main/jvmreport.PNG)
 
