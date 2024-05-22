@@ -80,6 +80,8 @@ To run the tests and generate reports:
 
 The test results are generated in a Cucumber JSON report, which can be found at `target/report`. You can customize the reporting format and output by modifying the CucumberOptions in the `TestRunner` class. 
 
+![Cucumber Report](https://github.com/parajuli/woolworths/blob/main/htmlreport.PNG)
+
 ## 2. Running Tests Using Jenkins and Generating Cucumber Report
 
 To run the automated tests using Jenkins and generate reports, follow these steps:
