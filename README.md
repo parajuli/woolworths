@@ -38,7 +38,7 @@ To get started with the Search API testing, follow these steps:
 
 1. Clone the repository to your local machine:
     ```
-    git clone https://github.com/parajuli/WoolworthsAPI.git
+    git clone https://github.com/parajuli/woolworths.git
     ```
 
 2. Install the required dependencies using Maven:
